@@ -1,0 +1,15 @@
+# Stripe keys
+STRIPE_PUBLISHABLE_KEY="pk_test_51GtwxoBDrgw2LkqYQwQN37oVaOkkQwaiSCxCDzlxyN9FkYPUWPMnde5beUblx3CsinxxvMeNZE8hPEzhf1f87TOG00ktnqP1iE"
+STRIPE_SECRET_KEY="sk_test_51GtwxoBDrgw2LkqYcuACbM8Vw5Uvv2UaQNVnvK8B1yVVzxeNPJBCXmSHDJ8A0zvHVIdnA3FVTamnf1ho3XwVblF10050aLvqzl"
+
+# Required to run webhook
+# See README on how to use the Stripe CLI to setup
+STRIPE_WEBHOOK_SECRET="whsec_QJVyA6KJ1h7znSEuJMfsNENFXMmKGepc"
+
+# Checkout options
+DONATION_PRODUCT_ID="prod_HTDnjQ7vBP05VV"
+SUBSCRIPTION_PRICE_ID="price_1GuHMBBDrgw2LkqYMBwHW0Z7"
+DOMAIN="http://localhost:4242"
+
+# Environment variables 
+STATIC_DIR="../../client"
